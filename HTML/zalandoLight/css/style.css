@@ -32,10 +32,21 @@ p, a{font-size: 1rem;}
 #banner {
     display: flex; /* Bruker flexbox for å arrangere innholdet i banneret */
     flex-wrap: wrap; /* Tillater at elementer brytes til neste rad hvis det ikke er plass */
-    
+    background-color: #efefef;
+    justify-content: space-between;
+
     img {
         max-width: 70%; /* Bildet i banneret vil ikke overstige 70% av containerens bredde */
     }
+}
+
+#banner div{
+    width: 30%;
+    padding: 2rem;
+}
+
+#banner div h2{
+    font-size: 1rem;
 }
 
 main {
